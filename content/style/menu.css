@@ -1,0 +1,75 @@
+﻿#headerMenu {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: -8px;
+}
+
+#headerMenu li {
+    list-style: none;
+    display: inline-block;
+}
+
+    #headerMenu > li:not(:last-child) {
+        margin-right: 2em;
+    }
+
+#headerMenu > li > ul {
+    /*display: block;*/
+    display: none;
+}
+
+#headerMenu > li > ul > li {
+    display: block;
+}
+
+#headerMenu label {
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#headerMenu label:hover {
+    /*color: #0d6100;*/
+    color: #367c2b;
+    cursor: pointer;
+}
+
+#headerMenu label.menuTrigger:after {
+    content: "\a0\a0\25BE";
+}
+
+#subMenuContainer {
+    position: fixed;
+    top: 95px;
+    width: 70%;
+    height: 25px;
+    margin: 0px 15% 0px 15%;
+    text-align: center;
+    background-color: #c9c5a9;
+    /*background-color: #aa9878;*/
+    /*background-color: #d1cb3a;*/
+    display: none;
+    opacity: .9;
+}
+
+    #subMenuContainer > ul {
+        margin: .25em;
+    }
+
+        #subMenuContainer > ul > li {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 1.5em;
+        }
+
+        #subMenuContainer > ul > li a {
+            font-weight: 700;
+            color: #000;
+        }
+
+        #subMenuContainer > ul > li a:hover {
+            font-weight: 700;
+            color: #367c2b;
+        }

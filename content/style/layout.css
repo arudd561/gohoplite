@@ -1,0 +1,213 @@
+﻿.ui-widget-content {
+    border-width: 0px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+header,div#header{
+    white-space: nowrap;
+    border-width: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .90;
+    /*background-color: #000000;*/
+    background: url('../image/header_backdrop.png') repeat-x;
+    height: 95px;
+}
+
+header > div,div#header > div{
+    white-space: nowrap;
+    margin: 0% 15%;
+    border-width: 0px;
+}
+
+#sessionPanel {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    text-align: center;
+}
+
+    #sessionPanel > img {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 2px;
+    }
+
+    #sessionPanel > .user-div {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+    }
+
+        #sessionPanel > .user-div > label {
+            display: block;
+            margin: .15em 0 .5em 0;
+        }
+
+        #sessionPanel > .user-div .divider {
+            margin: 0 .25em;
+        }
+
+#logoDiv {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 700;
+    margin: .5em 0 1.5em 0;
+}
+
+#menuDiv {
+    display: inline-block;
+    font-size: 10pt;
+    vertical-align: bottom;
+    float: right;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+
+content, div#content {
+    margin: 0 15%;
+    padding: 150px 0em 5em 0em;
+    width: 70%;
+    max-width: 70%;
+    text-align: center;
+}
+
+content .content, div#content .content {
+    white-space: normal;
+}
+
+.full-height {
+    min-height: 20em;
+}
+
+.full{
+    width: 100%;
+    min-width: 654px;
+    margin: 0px 0px 25px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.full .content {
+    padding: 5px;
+    text-align: left;
+}
+
+.news-item {
+    width: 30%;
+    min-width: 216px;
+    min-height: 300px;
+    padding: 5px;
+    text-align: left;
+    border: 2px solid #292929;
+    border-radius: 3px;
+}
+
+.large-news-item{
+    width: 45%;
+    min-width: 270px;
+    min-height: 270px;
+    padding: 5px;
+    text-align: left;
+    margin: 15px;
+}
+
+.large-news-item:nth-child(odd){
+    float: left;
+}
+
+.large-news-item:nth-child(even) {
+    float: right;
+}
+
+.h-element.news-item {
+    font-size: 10pt;
+}
+
+.h-panel {
+    white-space: nowrap;
+}
+
+.h-panel * {
+    white-space: normal;
+    font-size: 1.1em;
+}
+
+.h-element {
+    display: inline-block;
+    font-size: 10pt;
+}
+
+.v-panel {
+    white-space: normal;
+}
+
+v-element {
+    display: block;
+}
+
+footer, #footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    min-height: 4em;
+    text-align: center;
+    opacity: .90;
+    color: #ffffff;
+    text-align: center;
+    /*background-color: #000000;*/
+    background: url('../image/footer_backdrop.png') repeat;
+}
+
+footer > div:first-child,#footer > div:first-child {
+    margin: .25em 15%;
+    white-space: nowrap;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+    color: #ccc;
+}
+
+footer ul li a {
+    
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer ul li.sitemap-col-header{
+    /* font-weight: 700;
+    font-size: 1.1em; */
+    margin-bottom: .5em;
+}
+
+/* Form */
+
+.general-form label {
+    display : inline-block;
+}
+
+.general-form input, .general-form textarea, .general-form select {
+    display: block;
+}
+

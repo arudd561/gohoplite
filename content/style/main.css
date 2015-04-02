@@ -1,0 +1,33 @@
+﻿html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #cccccc;
+    background: #333333;
+    background-size: 100% 100%;
+    font: 500 12pt Arial,Helvetica,sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+code a, code a:visited {
+    color: #52c14a;
+    font-weight: bold
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logoDiv {
+    font-size: 48pt;
+}
