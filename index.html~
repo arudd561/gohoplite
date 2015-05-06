@@ -49,16 +49,16 @@
             <div>
                 <ul>
                     <li class="sitemap-col-header" title="Product Development"><a href="/ProductDevelopment">Product Development</a></li>
-                        <li title=""><a href="/Company/Leaders">Leaders</a></li>
+                        <!--li title=""><a href="/Company/Leaders">Leaders</a></li>
                         <li title=""><a href="/Company/Events">Events</a></li>
-                        <li title=""><a href="/Company/News">News</a></li>
+			<li title=""><a href="/Company/News">News</a></li--!>
                         <li title=""><a href="/Company/Contact">Contact</a></li>
                 </ul>
                 <ul>
                     <li class="sitemap-col-header" title="Machine Automation"><a href="/MachineAutomation">Machine Automation</a></li>
                         <li title=""><a href="/MachineAutomation/CNC">CNC Tools</a></li>
-                        <li title=""><a href="/MachineAutomation/RegeneBalance">RegeneBalance YTE</a></li>
-                        <li title=""><a href="/MachineAutomation/RegeneBlend">RegeneBlend</a></li>
+                        <!--li title=""><a href="/MachineAutomation/RegeneBalance">RegeneBalance YTE</a></li>
+                        <li title=""><a href="/MachineAutomation/RegeneBlend">RegeneBlend</a></li--!>
                 </ul>
                 <ul>
                     <li class="sitemap-col-header" title="Computer Aided Process"><a href="/ComputerAidedProcess">Computer Aided Process</a></li>
