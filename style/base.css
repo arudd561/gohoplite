@@ -1,0 +1,79 @@
+html, body {
+	margin: 0px;
+	background-color: #fffeef;
+	color: #333333;
+}
+
+div.layout-div {
+	display: block;
+}
+
+div.layout-div > div {
+	margin: 0 15%;
+}
+
+#logoDiv {
+	display: inline-block;
+	background: url('../images/main_logo.png') no-repeat;
+	width: 343px;
+	height: 90px;
+	overflow: hidden;
+}
+
+#headerDiv {
+	/*width: 80%;*/
+	padding: .5em 0;
+	vertical-align: top;
+}
+
+#menuDiv {
+	margin: 3px 0px 0px;
+	padding: .5em 0;
+	background-color: #404040;
+	height: 1em;
+}
+
+#contentDiv {
+	margin-top: 1.5em;
+}
+
+#footerDiv {
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #ffffff;
+	background: #cb9a34;
+	width: 100%;
+	margin: 1em 0;
+	padding: .5em 0;
+	border-top: 1px solid #999999;
+	height: 100px;
+	/* position: fixed;
+	bottom: 0px; */
+}
+#footerDiv > div {
+	margin: 0 15%;
+}
+
+#searchDiv {
+	border: 1px solid #333333;
+	border-radius: 2px;
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	margin-top: 2em;
+	border-radius: 3px;
+	padding-right: 2px;
+}
+	#searchDiv > input[type='text'] {
+		border: 0px solid #000000;
+		padding:  0 .5em;
+	}
+	
+	#searchDiv > label {
+		font-family: 'ElegantIcons';
+		vertical-align: middle;
+	}
+	
+	.elegant {
+		font-family: 'ElegantIcons';
+	}
