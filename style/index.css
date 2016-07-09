@@ -1,5 +1,121 @@
+#lobBannerDiv {
+    white-space: no-wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lob-banner {
+    padding: .5em 0px;
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    color: #333333;
+    display: inline-block;
+    vertical-align: top;
+
+    min-width: 275px;
+    width: 30%;
+    min-height: 400px;
+}
+
+#productDevelopmentBanner {
+    /*background: url('images/actuator_diagonal_trans.png') no-repeat;
+    background-size: cover;*/
+}
+
+.banner-header {
+    text-align: center;
+}
+
+.banner-icon {
+    font-size: 2em;
+    margin: 0px .25em .25em .25em;
+    color: #cb9a34;
+}
+
 #bannerDiv {
-	height: 250px;
-	background: #333333;
-	margin: 0px;
+    color: #cb9a34;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    height: 250px;
+    background: #333333;
+    margin: 0px;
+}
+
+#bannerDiv > div {
+    border: 1px #444444 solid;
+    padding: 1em;
+    border-radius: 6px;
+    margin: 0px 25px;
+    height: 80%;
+}
+
+div.layout-div {
+        display: block;
+}
+
+div.layout-div > div {
+        margin: 0 15%;
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 480px), screen and (max-width: 1200px) {
+    #lobBannerDiv {
+        white-space: normal;
+        display: block;
+    }
+
+    .lob-banner {
+        padding: .5em 0px;
+        
+        display: block;
+        
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    .lob-banner:not(:last-child) {
+        margin-bottom: 1em;
+    }
+
+    #productDevelopmentBanner {
+        /*background: url('images/actuator_diagonal_trans.png') no-repeat;
+        background-size: cover;*/
+    }
+
+    .banner-header {
+        text-align: center;
+    }
+
+    .banner-icon {
+        font-size: 2em;
+        margin: 0px .25em .25em .25em;
+        color: #cb9a34;
+    }
+
+    #bannerDiv {
+        color: #cb9a34;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        height: 250px;
+        background: #333333;
+        margin: 0px;
+    }
+
+    #bannerDiv > div {
+        border: 1px #444444 solid;
+        padding: 1em;
+        border-radius: 6px;
+        margin: 0px 25px;
+        height: 80%;
+    }
+
+    div:not(#headerDiv).layout-div > div {
+        margin: 0 10%;
+    }
+    
+    div#header.layout-div > div {
+        margin: 0 0%;
+    }
 }
