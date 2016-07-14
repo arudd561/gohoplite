@@ -40,7 +40,7 @@
                                             <a href="#" style="width: 100%; height: 100%">
                                                 <div class="banner-header">
                                                         <h2>
-                                                                <div class="elegant banner-icon">&#xe0df;</div>
+                                                                <div class="elegant banner-icon">&#xe031;</div>
                                                                 Premium
                                                         </h2>
                                                 </div>
@@ -55,13 +55,13 @@
                                         <div id="automationBanner" class="option-banner">
                                                 <div class="banner-header">
                                                         <h2>
-                                                                <div class="elegant banner-icon">&#xe107;</div>
+                                                                <div class="elegant banner-icon">&#xe050;</div>
                                                                 Plus
                                                         </h2>
                                                 </div>
                                                 <div class="banner-content">
                                                         <p>
-                                                            60GB storage  
+                                                            30GB storage  
                                                         </p>
                                                 </div>
                                         </div>
@@ -69,13 +69,13 @@
                                         <div id="softwareBanner" class="option-banner">
                                                 <div class="banner-header">
                                                         <h2>
-                                                                <div class="elegant banner-icon">&#xe07a;</div>
+                                                                <div class="elegant banner-icon">&#xe012;</div>
                                                                 Standard
                                                         </h2>
                                                 </div>
                                                 <div class="banner-content">
                                                         <p>
-                                                            30GB storage independently managed.
+                                                            20GB storage independently managed.
                                                         </p>
                                                 </div>
                                         </div>
