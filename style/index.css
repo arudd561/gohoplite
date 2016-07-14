@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #lobBannerDiv {
     white-space: no-wrap;
     display: flex;
@@ -5,7 +10,6 @@
 }
 
 .lob-banner {
-    padding: .5em 0px;
     border-radius: 8px;
     border: 1px solid #aaaaaa;
     color: #333333;
@@ -15,6 +19,30 @@
     min-width: 275px;
     width: 30%;
     min-height: 400px;
+}
+
+.option-banner {
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    color: #333333;
+    display: inline-block;
+    vertical-align: top;
+
+    min-width: 275px;
+    width: 30%;
+    min-height: 200px;
+    cursor: pointer;
+}
+
+.option-banner:hover {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background: #333333;
+}
+
+.banner-content {
+    margin: 2px 1em;
 }
 
 #productDevelopmentBanner {
@@ -66,7 +94,7 @@ div.layout-div > div {
         display: block;
     }
 
-    .lob-banner {
+    .lob-banner, .option-banner {
         padding: .5em 0px;
         
         display: block;
@@ -75,7 +103,7 @@ div.layout-div > div {
         min-height: 400px;
     }
     
-    .lob-banner:not(:last-child) {
+    .lob-banner:not(:last-child), .option-banner:not(:last-child) {
         margin-bottom: 1em;
     }
 
@@ -117,5 +145,9 @@ div.layout-div > div {
     
     div#header.layout-div > div {
         margin: 0 0%;
+    }
+
+    #searchDiv {
+        display: none;
     }
 }
