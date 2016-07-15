@@ -3,7 +3,7 @@ a {
     color: inherit;
 }
 
-#lobBannerDiv {
+#lobBannerDiv, #optionBannerDiv {
     white-space: no-wrap;
     display: flex;
     justify-content: space-between;
@@ -34,11 +34,22 @@ a {
     cursor: pointer;
 }
 
+.option-banner.selected {
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    color: #ffffff;
+    background: #555555;
+}
+
 .option-banner:hover {
     border-radius: 3px;
     border: 1px solid #000000;
     color: #ffffff;
     background: #333333;
+}
+
+.option-banner:hover .note {
+    color: #eebbbb;
 }
 
 .banner-content {
@@ -83,6 +94,11 @@ div.layout-div {
 
 div.layout-div > div {
         margin: 0 15%;
+}
+
+.note {
+    font-size: .8em;
+    color: #663333;
 }
 
 @media screen and (min-width: 1200px) {
