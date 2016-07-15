@@ -52,6 +52,21 @@ a {
     color: #eebbbb;
 }
 
+.option-banner:hover .pricetag {
+    color: #ee7777;
+}
+
+.pricetag {
+    margin-left: 1em;
+    font-size: .8em;
+    color: #772222;
+}
+
+.note {
+    font-size: .8em;
+    color: #663333;
+}
+
 .banner-content {
     margin: 2px 1em;
 }
@@ -94,11 +109,6 @@ div.layout-div {
 
 div.layout-div > div {
         margin: 0 15%;
-}
-
-.note {
-    font-size: .8em;
-    color: #663333;
 }
 
 @media screen and (min-width: 1200px) {

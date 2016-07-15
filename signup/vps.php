@@ -11,7 +11,14 @@
         <link rel="stylesheet" type="text/css" href="../style/index.css" />
     </head>
     <body>
-        <script type="text/javascript"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery("#optionBannerDiv .option-banner").click(function() {
+                    jQuery("#optionBannerDiv .option-banner").removeClass("selected");
+                    jQuery(this).addClass("selected");
+                });
+            });
+        </script>
         <style type="text/css">
             div.fixed-row span{
                 display: inline-block;
@@ -56,29 +63,27 @@
         </div>
         <div id="contentDiv" class="layout-div">
             <div>
-                <div id="lobBannerDiv">
+                <div id="optionBannerDiv">
                     <div id="productDevelopmentBanner" class="option-banner">
-                        <a href="#" style="width: 100%; height: 100%">
-                            <div class="banner-header">
-                                <h2>
-                                    <div class="elegant banner-icon">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    Prime
-                                </h2>
-                            </div>
-                            <div class="banner-content">
-                                <p>
-                                    Need more power?
-                                </p>
-                                <ul>
-                                    <li>160<span class="note">GB</span> Storage</li>
-                                    <li>2<span class="note">x</span> Cores</li>
-                                    <li>4<span class="note">GB</span> RAM</li>
-                                    <li>API Support</li>
-                                </ul>
-                            </div>
-                        </a>
+                        <div class="banner-header">
+                            <h2>
+                                <div class="elegant banner-icon">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                Prime<span class="pricetag">$300</span>
+                            </h2>
+                        </div>
+                        <div class="banner-content">
+                            <p>
+                                Need more power?
+                            </p>
+                            <ul>
+                                <li>160<span class="note">GB</span> Storage</li>
+                                <li>2<span class="note">x</span> Cores</li>
+                                <li>4<span class="note">GB</span> RAM</li>
+                                <li>API Support</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="automationBanner" class="option-banner">
                         <div class="banner-header">
@@ -86,7 +91,7 @@
                                 <div class="elegant banner-icon">
                                     <i class="fa fa-plus" aria-hidden="true"></i>
                                 </div>
-                                Plus
+                                Plus<span class="pricetag">$250</span>
                             </h2>
                         </div>
                         <div class="banner-content">
@@ -105,7 +110,7 @@
                         <div class="banner-header">
                             <h2>
                                 <div class="elegant banner-icon">&#xe07a;</div>
-                                Custom
+                                Custom<span class="pricetag">$150-$400</span>
                             </h2>
                         </div>
                         <div class="banner-content">

@@ -13,6 +13,12 @@
     </head>
     <body>
         <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery("#optionBannerDiv .option-banner").click(function() {
+                    jQuery("#optionBannerDiv .option-banner").removeClass("selected");
+                    jQuery(this).addClass("selected");
+                });
+            });
         </script>
 
         <style type="text/css">
