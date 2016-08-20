@@ -35,6 +35,11 @@
                     </p>
                 </div>
                 
+Projects
+Web Publishing
+Customers
+Online Sales
+Telecommunications
                 <div id="contentDiv" class="layout-div">
                         <div>
                                 <div id="lobBannerDiv">
