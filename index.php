@@ -28,9 +28,11 @@
                 </div>
                 
                 <div id="bannerDiv">
-                    <div>
-                        Go Hoplite!!!
+                    <div id="bannerContent">
                     </div>
+                    <p>
+                        Great thinking deserves great tools. Intelligent thinking in action. A comprehensive tool set to help manage your business.
+                    </p>
                 </div>
                 
                 <div id="contentDiv" class="layout-div">
