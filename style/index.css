@@ -3,6 +3,31 @@ a {
     color: inherit;
 }
 
+.section {
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.section:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.section h2 {
+    margin: 0px 0px .5em 0px;
+}
+
+        .section > div > .section-icon {
+            display: inline-block;
+            width: 50%;
+        }
+
+        .section > div > .section-message {
+            display: inline-block;
+            vertical-align: top;
+            margin: .25em 1em;
+            width: 45%;
+        }
+
 #lobBannerDiv, #optionBannerDiv {
     white-space: no-wrap;
     display: flex;
