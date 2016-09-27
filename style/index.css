@@ -104,7 +104,8 @@ a {
     }
 
     #bannerDiv > #bannerContent {
-        background: #ffffff url('../images/team_collab_03.jpg') no-repeat center 10%;
+        /*background: #ffffff url('../images/team_collab_03.jpg') no-repeat center 10%;*/
+        background: #ffffff url('../images/black-and-white-city-man-people.jpg') no-repeat center 50%;
         background-size: cover;
     }
 
