@@ -1,5 +1,6 @@
- 
-<?php $urlbase="http:///localhost/hoplite"; ?>
+<?php
+        $configuration = json_decode(file_get_contents("../site.conf"));
+?> 
 <!doctype html>
 <html>
     <head>
@@ -15,7 +16,7 @@
         </style>
         <div id="headerDiv" class="layout-div">
             <div>
-                <a href="<?php echo $urlbase; ?>"><div id="logoDiv">&nbsp;</div></a>
+                <a href="<?php echo $configuration->baseurl; ?>"><div id="logoDiv">&nbsp;</div></a>
                 <div id="searchDiv">
                     <input type="text" id="searchTextbox" name="searchTextbox" />
                     <label for="searchTextbox">&#x55;</label>
