@@ -73,6 +73,12 @@ html, body {
 
 #footerDiv > div {
 	margin: 0 15%;
+        text-align: center;
+}
+
+#footerDiv > div > * {
+    display: inline-block;
+    margin: 0px 2em;
 }
 
 #searchDiv {

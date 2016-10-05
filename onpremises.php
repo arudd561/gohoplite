@@ -14,28 +14,7 @@
         <script type="text/javascript"></script>
         <style type="text/css">
         </style>
-        <div id="headerDiv" class="layout-div">
-            <div>
-                <a href="<?php echo $configuration->baseurl; ?>"><div id="logoDiv">&nbsp;</div></a>
-                <div id="searchDiv">
-                    <input type="text" id="searchTextbox" name="searchTextbox" />
-                    <label for="searchTextbox">&#x55;</label>
-                </div>
-            </div>
-        </div>
-        <div id="menuDiv" class="layout-div">
-            <ul>
-                <li>
-                    <a href="hosted.php">Hosted Services</a>
-                </li>
-                <li>
-                    <a href="onpremises.php">On-premises Tools</a>
-                </li>
-                <li>
-                    <a href="planning.php">Planning</a>
-                </li>
-            </ul>
-        </div>
+        <?php include("partial/header.php"); ?>
         <div id="bannerDiv">
             <div id="bannerContent" style="background: #ffffff url('images/cityscape_01.jpg') no-repeat center 80%; background-size: cover;">
             </div>
@@ -163,11 +142,6 @@
                 </div>
             </div>
         </div>
-        <div id="footerDiv" class="layout-div">
-            <div>
-                <div>(NPA) NXX - XXXX</div>
-                <div>support@gohoplite.com</div>
-            </div>
-        </div>
+        <?php include("partial/footer.php"); ?>
     </body>
 </html>
