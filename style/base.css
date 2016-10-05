@@ -19,10 +19,37 @@ html, body {
 }
 
 #menuDiv {
-	margin: 3px 0px 0px;
-	padding: .5em 0;
-	background-color: #404040;
-	height: 1em;
+    margin: 3px 0px 0px;
+    padding: .5em 0;
+    background-color: #404040;
+    color: #cb9a34;
+    text-align: center;
+}
+
+#menuDiv > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menuDiv > ul > li {
+    display: inline-block;
+    margin: 0px 4em;
+    font-weight: 700;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#menuDiv > ul > li:hover {
+    background-color: #cb9a34;
+    color: #404040;
+    border-radius: 3px;
+}
+
+#menuDiv > ul > li > a {
+    padding: 0px .25em;
+    min-width: 150px;
+    display: inline-block;
 }
 
 #contentDiv {

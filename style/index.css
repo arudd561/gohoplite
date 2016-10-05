@@ -128,11 +128,6 @@ a {
         height: 80%;
     }
 
-    #bannerDiv > #bannerContent {
-        background: #ffffff url('../images/team_collab_03.jpg') no-repeat center 10%;
-        background-size: cover;
-    }
-
 div.layout-div {
         display: block;
 }
