@@ -1,73 +1,109 @@
 html, body {
-	margin: 0px;
-	background-color: #fffeef;
-	color: #333333;
+    margin: 0px;
+    background-color: #fffeef;
+    color: #333333;
+    /*font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
 }
 
 #logoDiv {
-	display: inline-block;
-	background: url('../images/main_logo.png') no-repeat;
-	width: 343px;
-	height: 90px;
-	overflow: hidden;
+    display: inline-block;
+    background: url('../images/main_logo.png') no-repeat;
+    width: 343px;
+    height: 90px;
+    overflow: hidden;
 }
 
 #headerDiv {
-	/*width: 80%;*/
-	padding: .5em 0;
-	vertical-align: top;
+    /*width: 80%;*/
+    padding: .5em 0;
+    vertical-align: top;
 }
 
 #menuDiv {
-	margin: 3px 0px 0px;
-	padding: .5em 0;
-	background-color: #404040;
-	height: 1em;
+    margin: 3px 0px 0px;
+    padding: .5em 0;
+    background-color: #404040;
+    color: #cb9a34;
+    text-align: center;
+}
+
+#menuDiv > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menuDiv > ul > li {
+    display: inline-block;
+    margin: 0px 4em;
+    font-weight: 700;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#menuDiv > ul > li:hover {
+    background-color: #cb9a34;
+    color: #404040;
+    border-radius: 3px;
+}
+
+#menuDiv > ul > li > a {
+    padding: 0px .25em;
+    min-width: 220px;
+    display: inline-block;
 }
 
 #contentDiv {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 #footerDiv {
-	font-size: 1.1em;
-	font-weight: 600;
-	color: #ffffff;
-	background: #cb9a34;
-	width: 100%;
-	margin: 1em 0 0 0;
-	padding: .5em 0;
-	border-top: 1px solid #999999;
-	height: 100px;
-	position: static;
-	bottom: 0px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffffff;
+    background: #cb9a34;
+    width: 100%;
+    margin: 1em 0 0 0;
+    padding: .5em 0;
+    border-top: 1px solid #999999;
+    height: 100px;
+    position: static;
+    bottom: 0px;
 }
 
 #footerDiv > div {
-	margin: 0 15%;
+    margin: 0 15%;
+    text-align: center;
+}
+
+#footerDiv > div > * {
+    display: inline-block;
+    margin: 0px 2em;
 }
 
 #searchDiv {
-	border: 1px solid #333333;
-	border-radius: 2px;
-	display: inline-block;
-	float: right;
-	vertical-align: top;
-	margin-top: 2em;
-	border-radius: 3px;
-	padding-right: 2px;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-top: 2em;
+    border-radius: 3px;
+    padding-right: 2px;
 }
-	#searchDiv > input[type='text'] {
-		border: 0px solid #000000;
-		padding:  0 .5em;
-	}
-	
-	#searchDiv > label {
-		font-family: 'ElegantIcons';
-		vertical-align: middle;
-	}
-	
-	.elegant {
-		font-family: 'ElegantIcons';
-	}
+    #searchDiv > input[type='text'] {
+        border: 0px solid #000000;
+        padding:  0 .5em;
+    }
+
+    #searchDiv > label {
+        font-family: 'ElegantIcons';
+        vertical-align: middle;
+    }
+
+    .elegant {
+        font-family: 'ElegantIcons';
+    }
