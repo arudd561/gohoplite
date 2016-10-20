@@ -160,7 +160,19 @@ window.esq.FileManager = function(target, options) {
 
     myself.build = function() {
         myself.ToolbarDiv = jQuery("<div />", {});
+
+        myself.LowerContainer = jQuery("<div />", {});
+
+        myself.Container.append(myself.ToolbarDiv);
+        myself.Container.append(myself.LowerContainer);
+         
         myself.NavigationDiv = jQuery("<div />", {});
+        myself.FilePanel = jQuery("<div />", {});
+        myself.FileInfoPanel = jQuery("<div />", {});
+
+        myself.LowerContainer.append(myself.NavigationDiv);
+        myself.LowerContainer.append(myself.FilePanel);
+        myself.LowerContainer.append(myself.FileInfoPanel);
     };
 
     myself.wrap = function() {
