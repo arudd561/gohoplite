@@ -145,7 +145,8 @@ window.esq.FileManager = function(target, options) {
     var myself = this;
         
     myself.defaultOptions = {
-        data: {}
+        data: {},
+        height: "400px"
     };
     
     myself.Construct = function() {
@@ -156,23 +157,34 @@ window.esq.FileManager = function(target, options) {
         myself.Container = jQuery("<div />", {});
 
         myself.Parent.append(myself.Container);
+
+        myself.build();
     };
 
     myself.build = function() {
-        myself.ToolbarDiv = jQuery("<div />", {});
+        myself.ToolbarDiv = jQuery("<div />", {"style": "height: 5em; border: 1px solid #333333; border-radius: 3px;"});
 
-        myself.LowerContainer = jQuery("<div />", {});
+        myself.GeneralContainer = jQuery("<div />", {});
 
         myself.Container.append(myself.ToolbarDiv);
-        myself.Container.append(myself.LowerContainer);
+        myself.Container.append(myself.GeneralContainer);
          
-        myself.NavigationDiv = jQuery("<div />", {});
-        myself.FilePanel = jQuery("<div />", {});
-        myself.FileInfoPanel = jQuery("<div />", {});
+        myself.NavigationDiv = jQuery("<div />", {"style": "display: inline-block; width: 200px; border: 1px solid #333333; border-radius: 3px; vertical-align: top; height: "+myself.Options.height+";"});
+        myself.FilePanel = jQuery("<div />", {"html": "&nbsp;","style": "display: inline-block; border: 1px solid #333333; border-radius: 3px; vertical-align: top; height: "+myself.Options.height+";"});
+        myself.FileInfoPanel = jQuery("<div />", {"style": "display: inline-block; width: 220px; border: 1px solid #333333; border-radius: 3px; vertical-align: top; height: "+myself.Options.height+"; text-align: center;"});
 
-        myself.LowerContainer.append(myself.NavigationDiv);
-        myself.LowerContainer.append(myself.FilePanel);
-        myself.LowerContainer.append(myself.FileInfoPanel);
+        myself.FileInfoPanel_Preview = jQuery("<div />", {"style": "display: inline-block; width: 200px; height: 200px; background-color: #482603; border-radius: 3px; margin-top: .75em;"});
+        myself.FileInfoPanel.append(myself.FileInfoPanel_Preview);
+
+        myself.FileInfoPanel_Data = jQuery("<div />", {"style": "width: 200px; border-radius: 3px; font-size: .8em; text-align: left;"}).html("<div><span>Filename</span><span>Sample</span></div><div><span>Type</span><span>Portable Network Graphic (PNG)</span></div>");
+        myself.FileInfoPanel_Data.find("span").css("display", "inline-block").css("vertical-align", "top");
+        myself.FileInfoPanel_Data.find("span:odd").css("max-width", "125px")
+        myself.FileInfoPanel_Data.find("span:even").css("margin-right","1em").css("width", "50px");
+        myself.FileInfoPanel.append(myself.FileInfoPanel_Data);
+
+        myself.GeneralContainer.append(myself.NavigationDiv);
+        myself.GeneralContainer.append(myself.FilePanel);
+        myself.GeneralContainer.append(myself.FileInfoPanel);
     };
 
     myself.wrap = function() {
@@ -181,6 +193,12 @@ window.esq.FileManager = function(target, options) {
     
     myself.Construct();
 }
+
+window.esq.FileManager.ViewType = {
+    "List": 0x01,
+    "Detail" : 0x02,
+    "Preview" : 0x04
+};
 
 
 // --[ EOF ]-- //
