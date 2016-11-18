@@ -8,7 +8,6 @@
         <link rel="icon" type="image/png" href="favicon.png?v1" />
         <link rel="stylesheet" type="text/css" href="style/font-icon.css" />
         <link rel="stylesheet" type="text/css" href="style/base.css" />
-        <link rel="stylesheet" type="text/css" href="style/index.css" />
     </head>
     <body>
         <script type="text/javascript"></script>
