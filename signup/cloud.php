@@ -35,6 +35,8 @@
             <div>
                 Choose your configuration
             </div>
+
+            Free yourself from the burden of managing a high availability server
         </div>
         <div id="contentDiv" class="layout-div">
             <div>
