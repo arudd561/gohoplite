@@ -24,7 +24,8 @@
             &nsbsp;
         </div>
         <div id="contentDiv" class="layout-div">
-            <div style="color: #cccccc; padding: 1em 15% 2em 15%; margin: 2em 0px; border-top: 2px ridge #555555; border-bottom: 2px ridge #555555; background-color: #333333; opacity: .9;">
+            <div class="index-content-div">
+                <!--div style="color: #cccccc; padding: 1em 15% 2em 15%; margin: 2em 0px; border-top: 2px ridge #555555; border-bottom: 2px ridge #555555; background-color: #333333; opacity: .9;"></div-->
                 <div style="text-align: center; margin: 1em 0px 2em;">
                     <!--p style="font-size: 2.3em; color: #cb9a34; display: inline; position: relative; top: 4.5em; left: 8em;" -->
                     <p style="font-size: 2.3em; color: #cb9a34; display: inline;">
@@ -34,18 +35,92 @@
                 <div style="white-space: nowrap; text-align: center;">
                     <div style="margin: 0px 1em; height: 300px; min-width: 200px; width: 30%; border: 1px solid #555555; border-radius: 3px; display: inline-block; vertical-align: top; opacity: 1; background-color: #222222;">
                         <h2>S<span class="smaller-text">OFTWARE</span></h2>
-                        &nbsp;
+                        <p>
+                            <ul style="text-align: left; font-size: .8em;">
+                                <li>
+                                    <span>
+                                        <h3>Project Management</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Web Content Publishing</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Customer Relations</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Online Sales</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Voice and Text Communication</h3>
+                                    </span>
+                                </li>
+                            </ul>
+                        </p>
                     </div>
                     <div style="margin: 0px 1em; height: 300px; min-width: 200px; width: 30%; border: 1px solid #555555; border-radius: 3px; display: inline-block; vertical-align: top; opacity: 1; background-color: #222222;">
                         <h2>D<span class="smaller-text">EPLOYMENT</span></h2>
-                        &nbsp;
+                        <p>
+                            <ul style="text-align: left; font-size: .8em;">
+                                <li>
+                                    <span>
+                                        <h3>Cloud SaaS</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Virtual Private Server</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>On Premesis</h3>
+                                    </span>
+                                </li>
+                            </ul>
+                        </p>
                     </div>
                     <div style="margin: 0px 1em; height: 300px; min-width: 200px; width: 30%; border: 1px solid #555555; border-radius: 3px; display: inline-block; vertical-align: top; opacity: 1; background-color: #222222;">
                         <h2>G<span class="smaller-text">ET</span> S<span class="smaller-text">TARTED</span></h2>
-                        &nbsp;
+                        <p>
+                            <ol style="text-align: left; font-size: .8em;">
+                                <li>
+                                    <span>
+                                        <h3>Choose your tools</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Select a deploment method</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Review Costs</h3>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Register Account</h3>
+                                    </span>
+                                </li>
+                            </ol>
+                        </p>
                     </div>
                 </div>
+
+                <span>Schedule a consultation</span>
             </div>
+            
+            <?php include("partial/about.php"); ?>
+
             <?php include("partial/contact.php"); ?>
 
         </div>

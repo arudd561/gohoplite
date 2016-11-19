@@ -267,16 +267,58 @@ a {
     }
 
 div.layout-div {
-        display: block;
+    display: block;
 }
 
 div.layout-div > div {
-        margin: 0 15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-@media screen and (min-width: 1400px) {
+.contact-div {
+    color: #eeeeee;
+    
+    padding-left: 15%;
+    padding-right: 15%;
+
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+    border-top: 2px ridge #555555;
+    border-bottom: 2px ridge #555555;
+    background-color: #cb9a34;
+    opacity: .9;
+}
+
+.contact-div input[type='text'], .contact-div textarea {
+    border-radius: 3px;
+    margin-bottom: .5em;
+}
+
+.index-content-div {
+    color: #cccccc;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: 2em 0px;
+    border-top: 2px ridge #555555;
+    border-bottom: 2px ridge #555555;
+    background-color: #333333;
+    opacity: .9;
+}
+
+@media screen and (min-width: 1280px) {
     #bannerDiv {
         height: 400px;
+    }
+    div.layout-div > div {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .index-content-div, .contact-div {
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin: 2em 0px;
     }
 }
 
@@ -295,9 +337,7 @@ div.layout-div > div {
 
     .lob-banner, .option-banner {
         padding: .5em 0px;
-        
         display: block;
-        
         width: 100%;
         min-height: 400px;
     }

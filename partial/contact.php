@@ -5,23 +5,6 @@
     });
 </script>
 
-<style type="text/css">
-    .contact-div {
-        color: #eeeeee;
-        padding: 1em 15% 2em 15%;
-        border-top: 2px ridge #555555;
-        border-bottom: 2px ridge #555555;
-        /*background-color: #333333;*/
-        background-color: #cb9a34;
-        opacity: .9;
-    }
-
-    .contact-div input[type='text'], .contact-div textarea {
-        border-radius: 3px;
-        margin-bottom: .5em;
-    }
-</style>
-
 <div class="contact-div" style="margin: 2em 0px 0px 0px">
     <h1>C<span class="smaller-text">ONTACT</span> U<span class="smaller-text">S</span></h1>
     <div style="white-space: nowrap;">
